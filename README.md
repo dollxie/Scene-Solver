@@ -1,0 +1,43 @@
+# Scene Solver
+
+**Scene Solver** is a Crime Scene Investigation (CSI) assistant powered by AI and built using the MERN stack. It analyzes images to classify crime scenes using Vision Transformers (ViT), CLIP, and object detection models like YOLO.
+
+---
+
+## Features
+
+- Image upload and analysis
+- Crime type classification (e.g., Abuse, Arrest, Assault)
+- Object Detection (e.g., Knife, Gun)
+- Clean and minimal UI (React + Material UI)
+- Backend support for predictions and file handling
+
+---
+
+## Tech Stack
+
+**Frontend:**
+- React
+- Material UI
+- React Router
+
+**Backend:**
+- Node.js
+- Express.js
+
+**Database:**
+- MongoDB (MongoDB Atlas)
+
+**AI Models:**
+- Vision Transformer (ViT)
+- CLIP
+- YOLO (for object detection)
+
+---
+
+## Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/scene-solver.git
+cd scene-solver
